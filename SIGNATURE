@@ -1,0 +1,51 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 9b014dfc81b7422d90a3e528b02feab954dee773 AUTHORS
+SHA1 65946a38ed3c9aa9f19f127b12f9c4f7930d77d5 BUILD-ubuntu.sh
+SHA1 dec5f46fd141f1385e87e9817fd77f56de928197 Changes
+SHA1 e42863c226677d37bbef459b69faa87185c601e6 INSTALL
+SHA1 f11692fc652e231edd2a23a60c72d9be8a840e0c LICENSE
+SHA1 7b66e48ee68e5846aa4fe4cf394ba14bad766a9a MANIFEST
+SHA1 40992b2e1472a9312b6410cd7d4edcdc1b7150d4 MANIFEST.skip
+SHA1 9bbb5a4e82601f199280518d215500d7bcfe672b META.yml
+SHA1 d17d39639cddadcafab498ba9ff44b0699600155 Makefile.PL
+SHA1 d444beb8bf340b02d855f41659887fa56f94ff13 README
+SHA1 24d49eb54062e929428fb426dc001d9d7752526a ToDo
+SHA1 6345265a30a4344145763a75754f91831e88462f config/modwheel-apache-example.conf
+SHA1 ceac99579ef3914de1936417282842c07d907a6a inc/Module/Install.pm
+SHA1 6c9471c92c28e247fb84f4ab7dc277f68b33ea95 inc/Module/Install/Base.pm
+SHA1 b2cb1026330e8c4f8533c79569498ab15f189d86 inc/Module/Install/Can.pm
+SHA1 78acbad45c4289c228ead2278fc213ddd66bcead inc/Module/Install/Fetch.pm
+SHA1 642e5b27f4cbbbe440e5dc05c639f5fb79875fe3 inc/Module/Install/Makefile.pm
+SHA1 80d024f3eccf1c825b02b5e59de236b0af7d4bfc inc/Module/Install/Metadata.pm
+SHA1 fe6780ea5cfd67c79140699fbd4f0fe262255d57 inc/Module/Install/Win32.pm
+SHA1 51d43bffcfd7ffdecb8c8e9f97f3896c31b2e1b2 inc/Module/Install/WriteAll.pm
+SHA1 a4ea1f964728e7f5f9b7b2d20d4dff2cad449930 lib/Modwheel/Apache2.pm
+SHA1 d14fa99ab11a5f0a99a27a62a643e2ffdca06516 lib/Modwheel/Apache2/Authen.pm
+SHA1 a40285fad32bf6c2ae0889801d08d32ca8f040fb t/01-Apache-ModWheel-Authen.t
+SHA1 f473e892ec42524dc221ce50a2d6b9d86e317650 t/01-Apache-ModWheel.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (Darwin)
+
+iQEVAwUBRh9g57VCrzKJl8AkAQL+MQf/cv+XTT0nDaPTVEJvUFjQnof5Tq1xBOtE
+dXuQgvTqvBf5bcm/blD2vQuJuMTtWo4LRXMiyX4gMUoh4REmREHEDr1zQtAx7IX7
+oLu4HiK7o/8d8WpQxCGNA8qkVDFbtft+JPMiGnASo4Kj/leP6QB579E0EeKERoZf
+BxR+RkdI9C7IfhXa7GVg8k5V1Bv8QAfiMbs5n+7xoQlF0xOwL/A/lhTT1uwwJvQI
+5HsH8ciCE9o+2x1EMxNJxSM7pvMTPf4m++3dbXe9NRB42Lbnm69GHqBxN5nD3ex7
+JA1WQcCXafXXlqGi3LVi4NnEiJDgU5+OAI/HwP7lD87u5/1NTI6l9Q==
+=8zuy
+-----END PGP SIGNATURE-----

@@ -1,0 +1,29 @@
+--- 
+abstract: Use Modwheel with mod_perl2
+author: Ask Solem Hoel <ask@0x61736b.net>
+build_requires: 
+  File::Spec: 0
+  Test::Harness: 2.03
+  Test::More: 0.42
+distribution_type: module
+generated_by: Module::Install version 0.65
+installdirs: site
+license: perl
+meta-spec: 
+  url: http://0x61736b.net/Modwheel/index.html
+  version: 0.01
+name: Modwheel-Apache2
+no_index: 
+  directory: 
+    - config/
+    - inc
+    - t
+requires:
+  perl: 5.008
+  mod_perl2: 2.00
+  Tie::IxHash: 1.21
+  Parse::RecDescent: 1.94
+  ExtUtils::XSBuilder::ParseSource: 0.03
+  Apache2::Request: 2.00
+  Apache2::Upload: 2.00
+version: 0.01
